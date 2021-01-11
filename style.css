@@ -129,7 +129,6 @@ h1{
     width: 300px;
     color: white;
     background-color: rgb(75, 47, 47);
-    
 }
 .subcompromiso{
     padding: 10px;
@@ -195,7 +194,7 @@ h1{
     width: 100%;
     border-left: 10px solid rgb(177, 107, 107);
     border-top: 10px solid rgb(177, 107, 107);
-    transform: translateY(-15px) translateX(-50px);
+    transform: translateY(-15px);
     z-index: 1;
 }
 .staff2{
@@ -207,6 +206,7 @@ h1{
     flex-direction: column;
     border-right: 10px solid rgb(177, 107, 107);
     border-bottom: 10px solid rgb(177, 107, 107);
+    transform: translateY(15px);
 }
 footer{
     color: white;
