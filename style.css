@@ -7,7 +7,7 @@
     font-weight: normal;
 }
 body{
-    color: rgb(95, 95, 95);
+    color: rgb(161, 161, 161);
     font-family: "PiersonDemo", Georgia;
     font-weight: 600;
 }
@@ -17,6 +17,9 @@ body{
 p{  
     font-weight: 600;
     font-size: 12px;
+}
+.p-compr{
+    font-size: 18px;
 }
 h5{
     color: black;
@@ -125,7 +128,7 @@ h1{
     
 }
 .subcompromiso{
-    padding: 100px;
+    padding: 10px;
 }
 .itemcompromiso{
     height: 100px;
@@ -185,7 +188,7 @@ h1{
 .substaff1{
     position: relative;
     min-height: 400px;
-    width: 500px;
+    width: 100%;
     border-left: 10px solid rgb(177, 107, 107);
     border-top: 10px solid rgb(177, 107, 107);
     transform: translateY(-15px) translateX(-50px);
