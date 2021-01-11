@@ -109,6 +109,10 @@ h1{
     background-color: rgb(75, 47, 47);
     color: white;
     box-shadow: 2px 2px 10px rgb(54, 54, 54);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
 }
 .medio{
     display: flex;
