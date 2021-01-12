@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="PiersonDemo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -26,7 +30,7 @@
                 <a class="anav-link" href="#">Servicios</a>
             </li>
         <li class="nav-item">
-          <a class="SM nav-item" href="">SM & Asociados</a>  
+          <a class="SM nav-item" href="">Estudio Jurídico <br> SM & Asociados</a>  
         </li>
             <li class="nav-item">
                 <a class="anav-link" href="#">Contacto</a>
@@ -40,12 +44,12 @@
 
       <header>
 
-      <div class="header container-fluid">
+      <div  class="header container-fluid">
 
           <div class="subheader container">
                 <h1 class="textsubheader"> SM | ABOGADOS Y ASOCIADOS</h1>
 
-                <h4 class="textsubheader">STAFF DE ABOGADOS ESPECIALISTAS 
+                <h4 data-aos="fade-up" class="textsubheader">STAFF DE ABOGADOS ESPECIALISTAS 
                     EN DERECHO LABORAL, CIVIL, COMERCIAL Y FAMILIA</h4>
           </div>
         
@@ -53,56 +57,7 @@
 
       </header>
 
-      <main>
-            <div class="main container">
-                <div class="row">
-                    <div class="submain col-12 col-sm-12 col-md-3 col-lg-3">
-                        <img src="img/legal-hammer-symbol.png" style="height: 40px; width: 40px;" alt="">
-                        <h5>Derecho laboral</h5>
-                        <ul>
-                            <li>Despidos</li>
-                            <li>Trabajo en negro</li>
-                            <li>Diferencias Salariales</li>
 
-                        </ul>
-                    </div>
-
-
-                    <div class="submain col-12 col-sm-12 col-md-3 col-lg-3">
-                        <img src="img/magistrate-with-hammer.png" style="height: 40px; width: 40px;" alt="">
-                        <h5>Derecho civil</h5>
-                        <ul>
-                            <li>Sucesiones</li>
-                            <li>Accidente de tránsito</li>
-                            <li>Daños y perjuicios</li>
-       
-                        </ul>
-                    </div>
-                    <div class="submain col-12 col-sm-12 col-md-3 col-lg-3">
-                        <img src="img/weight-balance.png" style="height: 40px; width: 40px;" alt="">
-                        <h5>Derecho de familia</h5>
-                        <ul>
-                            <li>Divorcios</li>
-                            <li>Convenio de alimentos</li>   
-                            <li>Divisón de bienes</li>    
-                        </ul>
-                    </div>
-
-                    <div class="submain col-12 col-sm-12 col-md-3 col-lg-3">
-                        <img src="img/courthouse.png" style="height: 40px; width: 40px;" alt="">
-                        <h5>Derecho comercial</h5>
-                        <ul>
-                            <li>Contratos comerciales</li>      
-                            <li>Ejecución de deudas</li>
-                            <li>Defensa al consumidor</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>          
-
-
-
-      </main>
 
             <div class="medio">
 
@@ -110,7 +65,7 @@
                     <h2>NUESTRO COMPROMISO</h2>
                 </div>
 
-                <div class="col-12 subcompromiso container">
+                <div data-aos="fade-up" class="col-12 subcompromiso container">
                     <p class="p-compr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                         Nesciunt asperiores minima maxime quas. Nam minima error quam laboriosam 
                         sapiente iure voluptatibus labore delectus asperiores, quia tempore itaque 
@@ -119,14 +74,16 @@
                     </p>                   
                 </div>
 
+
+     
                 <div class="itemscompromiso container">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-3 col-lg-3">
-                        <h5>Orientación</h5>
-                            <p>Asesoramiento jurídico integral en derecho laboral, civil, comercial, y famila.</p> 
+                        <h5> Orientación</h5>
+                            <p>Asesoramiento jurídico integral especializado en derecho del trabajo.</p> 
                         </div>
                         <div class="col-12 col-sm-12 col-md-3 col-lg-3">
-                        <h5>Patrocinio <br> y Representación</h5>
+                        <h5> Patrocinio <br> y Representación</h5>
                         <p>En instancias judiciales y administrativas. (Ministerio de trabajo, SECLO )</p> 
                         </div>
                         <div class="col-12 col-sm-12 col-md-3 col-lg-3">
@@ -141,7 +98,29 @@
                 </div>
 
             </div>
+ <main class="container">
+            <div class="main">
+                <div class="submain">
+                    <div data-aos="fade-up" class="row">
 
+                    <div class="divserv col-12 col-sm-12 col-md-4 col-lg-4">
+                        <h3>Despidos</h3> <br> 
+                        <img class="serv" src="img/despedido.png" style="height: 100px;" alt="">
+                    </div>
+                   
+                    <div class="divserv col-12 col-sm-12 col-md-4 col-lg-4">
+                        <h3>Accidentes de trabajo </h3>
+                        <img class="serv" src="img/accidente.png" style="height: 100px;" alt="">
+                    </div>
+                    <div class="divserv col-12 col-sm-12 col-md-4 col-lg-4">
+                        <h3>Enfermedades profesionales </h3>
+                        <img class="serv" src= "img/la-prevencion-de-enfermedades.png" style="height: 100px;" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>          
+
+      </main>
             <div class="contacto">
                 <div class="datos container">
                     <div class="row">
@@ -151,6 +130,10 @@
                             <img src="img/placeholder.png" style="height: 20px; width: 20px;" alt="">
                         Avenida pueyrredon 468, CABA (pueyrredon y corrientes)
                         </li>
+                        <li class="licontacto">
+                            <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.970567205459!2d-58.40790818505235!3d-34.604905765067436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaed57182859%3A0xa628f98427f499fb!2sAv.%20Pueyrred%C3%B3n%20468%2C%20C1032ABR%20CABA!5e0!3m2!1ses-419!2sar!4v1610424885920!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </li>
+
                         <li class="licontacto">
                             <img src="img/telephone.png" style="height: 20px; width: 20px;" alt="">
                             1132179405
@@ -194,7 +177,7 @@
 
                         <div class="staff2 col-12 col-sm-12 col-md-6 col-lg-6">
                             <h1>Nuestro Staff</h1>
-                            <p>Somos un estudio que ofrecemos asesoramiento especializado en derecho laboral.
+                            <p data-aos="fade-up">Somos un estudio que ofrecemos asesoramiento especializado en derecho laboral.
                                 Prestamos nuestra atención jurídica de manera personalizada, 
                                 con el fin de brindar la información más precisa y siempre a disposición del cliente, 
                                 brindando la atención adecuada a cada necesidad jurídica, y la mejor y más justa solución.</p>
@@ -206,23 +189,26 @@
                 <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+                        
                         <ul>
                             <li class="licontacto">
                             <img style="height: 15px; width: 15px;;" src="img/placeholder.png" alt="">
-                            Ubicación
+                            Avenida pueyrredon 468, CABA (pueyrredon y corrientes)
                             </li>
                             <li class="licontacto">
                             <img style="height: 15px; width: 15px;;" src="img/telephone.png" alt="">
-                            Numero de telefono</li>
+                            1132179405</li>
                             <li class="licontacto">
                             <img style="height: 15px; width: 15px;" src="img/email.png" alt="">
                             Correo electronico</li>
                         </ul>
                     </div>
-                    <div class="redes col-12 col-sm-12 col-lg-4 col-md-4">
-                        <ul>
-                            <img style="height: 35px; width: 35px;" src="img/facebook.png" alt="">
-                            <img style="height: 35px; width: 35px;" src="img/instagram.png" alt="">
+                    <div class="red col-12 col-sm-12 col-lg-4 col-md-4">
+                        <h4>Seguinos</h4>
+                        <ul class="redes">
+                           <a href="https://www.instagram.com/smestudiojuridico/"><img style="height: 35px; width: 35px;" src="img/instagram.png" alt=""></a> 
+                            <a href=""><img style="height: 35px; width: 35px;" src="img/facebook.png" alt=""> </a> 
+                            
                         </ul>
                     </div>
                 </div>
@@ -231,6 +217,14 @@
             <div class="firma">
                 Desarrollo web por <br> <a href="http://www.linkedin.com/li/legallaisgonzalo">Legallais Gonzalo</a>
             </div>
+            <script>
+                AOS.init({
+                      offset: 0,
+                      delay: 00,
+                      duration: 900,
+                      easing: 'ease-in'
+                    });
+            </script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
